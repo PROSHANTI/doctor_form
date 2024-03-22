@@ -134,32 +134,6 @@ def gui():
 
     exit_button = tk.Button(window, text="Выход", command=window.destroy)
     exit_button.pack(pady=10)
-
-    # frame = Frame(window)
-    # frame.pack(anchor = NW)
-    #
-    # pacient_3 = ttk.Entry(frame)
-    # pacient_3.pack(anchor=NW, padx=50, pady=5)
-    #
-    # pacient_4 = ttk.Entry(frame)
-    # pacient_4.pack(anchor=NW, padx=50, pady=5)
-    #
-    # date = tk.Label(frame, text="Дата")
-    # date.pack(anchor=NW, padx=50)
-    #
-    # date = tk.Entry(frame)
-    # date.insert(END, get_current_date()[0])
-    # date.pack(anchor = NW, padx = 50, pady = 5)
-
-    # btn_create = tk.Button(
-    #     window, text='Сделать красиво!',
-    #     command=replace_text_in_presentation,
-    # )
-    # btn_create.pack(pady = 10)
-    #
-    # exit_button = tk.Button(window, text="Выход", command=window.destroy)
-    # exit_button.pack(pady = 10)
-
     window.mainloop()
 
 
