@@ -13,7 +13,6 @@ locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
 
 
 def gui():
-
     def get_current_date():
         """Получить текущую дату и вернуть день, месяц и год."""
         now = datetime.datetime.now()
@@ -34,7 +33,6 @@ def gui():
                 message=f'Файл «{output_file_path}» успешно создан'
             )
         return True
-
 
     def replace_text_in_presentation():
         """
